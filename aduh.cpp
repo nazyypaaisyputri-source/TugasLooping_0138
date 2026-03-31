@@ -14,6 +14,12 @@ bool isPrima(int n) {
     return true;
 }
 
+bool isFibonacci(int n) {
+    int a = 0, b = 1;
+    if (n == a || n == b) return true;
+    return false;
+}
+
 void tampilMenu() {
     cout << "\n--- MENU CEK BILANGAN ---" << endl;
     cout << "1. Cek Bilangan Prima" << endl;
@@ -32,6 +38,7 @@ void tampilkanHasilPrima(bool hasil) {
     if (hasil) cout << "=> " << angka << " adalah bilangan prima!" << endl;
     else cout << "=> " << angka << " bukan bilangan prima." << endl;
 }
+
 
 int main() {
     while (true) {
