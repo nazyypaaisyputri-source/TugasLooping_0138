@@ -12,6 +12,11 @@ void tampilMenu() {
     cout << "Pilih menu: ";
 }
 
+void inputUser() {
+    cout << "Masukkan angka yang mau dicek: ";
+    cin >> angka;
+}
+
 int main() {
     return 0;
 }
