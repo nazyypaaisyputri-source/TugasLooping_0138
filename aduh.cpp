@@ -75,7 +75,7 @@ int main() {
                 cout << "Program selesai, terima kasih!" << endl;
                 return 0;
             default:
-                cout << "Pilihan salah!" << endl;
+                cout << "[!] Pilihan tidak valid, silakan masukkan 0, 1, atau 2." << endl;
                 break;
         }
     }
