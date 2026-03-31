@@ -46,6 +46,10 @@ void tampilkanHasilPrima(bool hasil) {
     else cout << "=> " << angka << " bukan bilangan prima." << endl;
 }
 
+void tampilkanHasilFibo(bool hasil) {
+    if (hasil) cout << "=> " << angka << " termasuk deret Fibonacci." << endl;
+    else cout << "=> " << angka << " tidak termasuk deret Fibonacci." << endl;
+}
 
 int main() {
     while (true) {
