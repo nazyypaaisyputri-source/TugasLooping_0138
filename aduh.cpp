@@ -65,6 +65,10 @@ int main() {
         inputUser();
         tampilkanHasilFibo(isFibonacci(angka));
             break;
+        case 0:
+                cout << "Program selesai, terima kasih!" << endl;
+                return 0;
+                
     }
     }
     return 0;
