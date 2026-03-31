@@ -58,12 +58,12 @@ int main() {
 
         switch (pilihan) {
         case 1:
-        case 1:
         inputUser();
         tampilkanHasilPrima(isPrima(angka));
-        break;
             break;
         case 2:
+        inputUser();
+        tampilkanHasilFibo(isFibonacci(angka));
             break;
     }
     }
