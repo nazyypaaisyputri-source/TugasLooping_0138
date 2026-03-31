@@ -68,7 +68,10 @@ int main() {
         case 0:
                 cout << "Program selesai, terima kasih!" << endl;
                 return 0;
-                
+        default:
+                cout << "Pilihan salah!" << endl;
+                break;
+
     }
     }
     return 0;
