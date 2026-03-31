@@ -4,6 +4,11 @@ using namespace std;
 int angka;
 int pilihan;
 
+bool isPrima(int n) {
+    if (n < 2) return false;
+    return true;
+}
+
 void tampilMenu() {
     cout << "\n--- MENU CEK BILANGAN ---" << endl;
     cout << "1. Cek Bilangan Prima" << endl;
@@ -16,6 +21,7 @@ void inputUser() {
     cout << "Masukkan angka yang mau dicek: ";
     cin >> angka;
 }
+
 
 int main() {
     while (true) {
