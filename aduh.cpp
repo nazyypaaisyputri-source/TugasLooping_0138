@@ -18,5 +18,17 @@ void inputUser() {
 }
 
 int main() {
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
+        if (pilihan == 0) {
+            cout << "Program selesai, terima kasih!" << endl;
+            break;
+        }
+    }
+    return 0;
+}
+
+int main() {
     return 0;
 }
