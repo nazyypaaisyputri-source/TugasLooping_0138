@@ -37,10 +37,13 @@ int main() {
     while (true) {
         tampilMenu();
         cin >> pilihan;
-        if (pilihan == 0) {
-            cout << "Program selesai, terima kasih!" << endl;
+        
+        switch (pilihan) {
+        case 1:
             break;
-        }
+        case 2:
+            break;
+    }
     }
     return 0;
 }
