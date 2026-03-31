@@ -22,11 +22,16 @@ void tampilMenu() {
     cout << "Pilih menu: ";
 }
 
+
 void inputUser() {
     cout << "Masukkan angka yang mau dicek: ";
     cin >> angka;
 }
 
+void tampilkanHasilPrima(bool hasil) {
+    if (hasil) cout << "=> " << angka << " adalah bilangan prima!" << endl;
+    else cout << "=> " << angka << " bukan bilangan prima." << endl;
+}
 
 int main() {
     while (true) {
