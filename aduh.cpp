@@ -37,9 +37,13 @@ int main() {
     while (true) {
         tampilMenu();
         cin >> pilihan;
-        
+
         switch (pilihan) {
         case 1:
+        case 1:
+        inputUser();
+        tampilkanHasilPrima(isPrima(angka));
+        break;
             break;
         case 2:
             break;
